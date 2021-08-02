@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.List{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+ListItemText{
+    border:10px solid green;
+    display: block;
+}
+.margin{
+    margin:10px;
+}
+.btn{
+    font-weight:bolder;
+    font-size:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width:7rem;
+    background-color: transparent;
+    color:#000000;
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+}
+
+.btn:hover{
+    background-color: indigo;
+    color:#fff;
+}
+
+.btns{
+    display: flex;
+    margin-right: 5px;
+}
+
+.pos{
+    top: 50%;
+    left:50%;
+    transform: translate(-50% -50%);
+}
