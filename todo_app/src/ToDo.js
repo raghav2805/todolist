@@ -72,7 +72,7 @@ function ToDo(props) {
             <div className="margin">
                 <List className="List">
                     <ListItem>
-                        <ListItemText primary={props.todo.text} secondary="Deadline" />
+                        <ListItemText primary={props.todo.text} secondary="Deadline ⏰" />
                     </ListItem>
 
                     <div className="btns">

@@ -32,9 +32,9 @@ function App() {
         <h1 className="header">ToDo List on your service sir🚀</h1>
         <form >
           <TextField className="src"  value={input} onChange={event => setInput(event.target.value)}
-          // id="outlined-helperText"
-          // label="Helper text"
-          // variant="outlined"
+          id="outlined-helperText"
+          label="Text"
+          variant="outlined"
         />
           <button type="submit" disabled={!input} className="btn" onClick={addTodo} >Add</button>
         </form>
